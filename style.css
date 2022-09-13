@@ -1,0 +1,186 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(hxh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: relative;
+    display: flex;
+}
+.icon
+{
+    float: left;
+    width: 130px;
+    height: 100%;
+    margin-left: 100px;
+    background: url(hxh1.png);
+    background-size: cover;
+    background-position: center; 
+}
+.menu
+{
+    width: 600px;
+    height: 100%;
+    float: left;
+    margin-left: 250px;
+}
+ul
+{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 15px
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+ul li a:hover
+{
+    text-decoration: underline;
+}
+#select
+{
+    height: 25px;
+    font-family: arial;
+    margin-left: 50px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 132px;
+    cursor: pointer;
+    background: orange;
+}
+.logsign
+{
+    width: 300px;
+    height: 100%;
+    float: right;
+    position: relative;
+    display: flex;
+    margin-left: 50px
+}
+.logsign li
+{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.logsign li a
+{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logsign li a:hover
+{
+    background: black;
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.option
+{
+    background: orange;
+    font-weight: bold;
+}
+#icon
+{
+    width: 400px;
+    height: 280px;
+    margin-left: 140px;
+}
+#logo
+{
+    width: 400px;
+    height: 100%;
+    background: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(6px 20px 2px black);
+}
+#text
+{
+    width: 600px;
+    height: 200px;
+    margin-left: 50px
+}
+#text p
+{
+    color: white;
+    margin-top: 20px;
+    font-family: arial;
+    filter: drop-shadow(0 20px 40px black)
+}
+#list
+{
+    width: 700px;
+    height: 200px;
+    margin-left: 50px;
+    display: flex;
+}
+#title
+{
+    width: 110px;
+    height: 100%;
+}
+#title h1
+{
+    font-size: 20px;
+    color: orange;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: arial;
+}
+#developer
+{
+    float: right;
+}
+#developer p
+{
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    font-family: arial;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

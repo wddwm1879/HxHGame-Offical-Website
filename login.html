@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login HxH</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   <div class="main">
+       <div class="navbar">
+           <div class="icon">
+               <div class="logo"></div>
+           </div>
+           <div class="menu">
+               <ul><li><a href="index.html">HOME</a></li></ul>
+               <ul><li><a onclick="clickMenu()" href="#">BATTLE</a></li></ul>
+               <ul><li><a onclick="clickMenu()" href="#">MARKET</a></li></ul>
+               <ul><li><a onclick="clickMenu()" href="#">COINS</a></li></ul>
+               <select id="select" name="more">
+               <option class="option" value="more">MORE</option>
+               <option class="option" value="more">Getting Started</option>
+               <option class="option" value="more">News</option>
+               <option class="option" value="more">Encyclopedia</option>
+               <option class="option" value="more">Character</option>
+               </select>
+           </div>
+           <div class="logsign">
+                   <li><a href="login.html">LOG IN</a></li>
+                   <li><a href="register.html">REGISTER</a></li>
+           </div>
+       </div>
+       <div id="main">
+           <div id="logged">
+               <div id="loggedd"></div>
+           </div>
+           <form action="#">
+               <input id="login-textbox" class="textbox" type="text" placeholder="Username or Email"><br>
+               <input id="password-textbox" class="textbox" type="passowrd" placeholder="Password"><br>
+               <button onclick="clickLoginButton()" type="button" id="button">Log in</button><br>
+               <div class="decoration">
+               <a onclick="clickMenu()" href="#">Forgot Password</a>
+               <a onclick="clickMenu()" href="#">Help</a>
+               </div>
+           </form>
+       </div>
+   </div>
+    
+</body>
+<script src="login.js"></script>
+</html>

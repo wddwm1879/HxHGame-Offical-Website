@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(hxh.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar
+{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    position: relative;
+    display: flex;
+}
+.icon
+{
+    float: left;
+    width: 130px;
+    height: 100%;
+    margin-left: 100px;
+    background: url(hxh1.png);
+    background-size: cover;
+    background-position: center; 
+}
+.menu
+{
+    width: 600px;
+    height: 100%;
+    float: left;
+    margin-left: 250px;
+}
+ul
+{
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+ul li
+{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 15px
+}
+ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+ul li a:hover
+{
+    text-decoration: underline;
+}
+#select
+{
+    height: 25px;
+    font-family: arial;
+    margin-left: 50px;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 132px;
+    cursor: pointer;
+    background: orange;
+}
+.logsign
+{
+    width: 300px;
+    height: 100%;
+    float: right;
+    position: relative;
+    display: flex;
+    margin-left: 50px
+}
+.logsign li
+{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.logsign li a
+{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.logsign li a:hover
+{
+    background: black;
+    color: white;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.option
+{
+    background: orange;
+    font-weight: bold;
+}
+#main
+{
+    width: 450px;
+    height: 650px;
+    margin: auto;
+    border: 2px orange solid;
+    border-radius: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+#logged
+{
+    height: 100px;
+    width: 150px;
+    margin: auto;
+}
+#loggedd
+{
+    height: 100%;
+    width: 100%;
+    background: url(logo.png);
+    background-position: center;
+    background-size: cover;
+    filter: drop-shadow(6px 10px 1px black);
+}
+.textbox
+{
+    width: 320px;
+    height: 40px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    color: white;
+    padding-left: 10px;    
+    border-style: solid;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+p
+{
+    color: orange;
+    margin-top: 10px;
+    margin-right: 170px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+}
+.birthday
+{
+    width: 80px;
+    height: 30px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    color: orange;
+}
+.checkbox
+{
+    font-size: 13px;
+    font-family: arial;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.checkbox a
+{
+    color: orange;
+    list-style: none;
+    text-decoration: none;
+    font-weight: bold;
+}
+.checkbox a:hover
+{
+    text-decoration: underline;
+}
+#button
+{
+    width: 320px;
+    height: 40px;
+    background: orange;
+    color: white;
+    border: solid orange 1px;
+    margin-top: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#button:hover
+{
+    background: white;
+    color: orange;
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.login-error
+{
+    border: 2px red solid;
+}
+
+
+
+
+
